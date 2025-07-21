@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================
+# 📦 Amazon Price Tracker .gitignore
+# ============================================
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+
+# Environment variable and secret files
+.env
+token.txt
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# MacOS system file
+.DS_Store
+
+# Output logs or debug files (if added later)
+*.log
