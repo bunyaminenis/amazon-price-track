@@ -31,13 +31,16 @@ This Python project allows you to monitor the price of Amazon products and autom
 📁 Project Structure
 
   📦 amazon-price-tracker/
+  
   ├── main_with_tl.py       # Tracks Turkish Amazon price
+  
   ├── main_with_usd.py      # Tracks U.S. Amazon price
+  
   ├── .env                  # Contains email credentials (ignored by git)
 
 ▶️ How to Use
   1. Clone the repository
-     git clone https://github.com/yourusername/amazon-price-tracker.git
+     git clone https://github.com/bunyaminenis/amazon-price-tracker.git
      cd amazon-price-tracker
 
   2. Install required packages
